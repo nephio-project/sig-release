@@ -9,6 +9,9 @@
    release tag:
    - [Prow](https://prow.nephio.io)
    - [Docker Hub](https://hub.docker.com/u/nephio)
+1. Some images are not built by us yet. Tag these Docker images manually:
+   - nephio/resource-backend-controller
+   - nephio/network-config-operator
 1. Update the images in the manifests to point to the new release tag:
    - https://github.com/nephio-project/nephio-packages
    - https://github.com/nephio-project/nephio-example-packages
