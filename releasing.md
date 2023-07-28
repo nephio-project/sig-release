@@ -32,6 +32,9 @@
    - Change the current release tag instances to the new one.
    - Update any e2e tests that use the Porch package version numbers to use the
      new ones.
+1. Once the PR with the updated sandbox provisioning code passes e2e and is
+   merged, create a release in:
+   - https://github.com/nephio-project/test-infra
 1. Update the documentation to use the new release tag and the new Porch package
    version numbers.
 1. Tag the documentation repository with the new release tag.
