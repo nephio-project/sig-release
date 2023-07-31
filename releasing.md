@@ -1,6 +1,6 @@
 # Releasing
 
-1. [Create releases](https://github.com/nephio-project/test-infra/tree/main/assets)
+1. [Create releases](https://github.com/nephio-project/test-infra/wiki#releases)
    in repositories with image build jobs with the new release tag:
    - https://github.com/nephio-project/nephio
    - https://github.com/nephio-project/kpt-backstage-plugins
